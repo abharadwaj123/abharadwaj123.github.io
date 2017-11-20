@@ -4,7 +4,7 @@ from flask_mail import Message
 
 app = Flask(__name__)
 mail = Mail(app)
-@app.route('/flask/<name>/<email>/<message>', methods=['POST'])
+@app.route('/<name>/<email>/<message>', methods=['POST'])
 def handle_data(name,email,message):
     msg = Message(message,
                   subject=name
