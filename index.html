@@ -282,41 +282,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="work">
 									<div class="work-info">
 										<div class="col-md-6 work-grid work-left">
-											<h4>April 2017</h4>
+											<h4 style="color:black">April 2017</h4>
 										</div>
 										<div class="col-md-6 work-grid work-right">
-											<h5>Risus</h5>
-											<p>Built Risus, a cross-platform application available on Web, iOS, and Android. The application allows users to optimize the way their camera takes photos, including optimizations such as taking photos only once everyone present in the photo is deemed 'photogenic'.</p>
+											<h5 style="color:black">Risus</h5>
+											<p style="color:black">Built Risus, a cross-platform application available on Web, iOS, and Android. The application allows users to optimize the way their camera takes photos, including optimizations such as taking photos only once everyone present in the photo is deemed 'photogenic'.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
 									<div class="work-info">
 										<div class="col-md-6 work-grid work-left">
-											<h4>March 2017-present</h4>
+											<h4 style="color:black">March 2017-present</h4>
 										</div>
 										<div class="col-md-6 work-grid work-right">
-											<h5>HSHacks III</h5>
-											<p>Built Stutterly, an Android application that recognizes speech impediments and smartly provides users with a process to fix their stuttering based on words they are already stuttering. My groupmate and I have continued work on the application to implement a Machine learning model that will determine (with better accuracy) stuttered words in the users' speech.</p>
+											<h5 style="color:black">HSHacks III</h5>
+											<p style="color:black">Built Stutterly, an Android application that recognizes speech impediments and smartly provides users with a process to fix their stuttering based on words they are already stuttering. My groupmate and I have continued work on the application to implement a Machine learning model that will determine (with better accuracy) stuttered words in the users' speech.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
 									<div class="work-info">
 										<div class="col-md-6 work-grid work-right work-right2">
-											<h4>February 2017</h4>
+											<h4 style="color:black">February 2017</h4>
 										</div>
 										<div class="col-md-6 work-grid work-left work-left2">
-											<h5>Santa Clara Hacks</h5>
-											<p>Attended my second hackathon, where I developed an Android application that allows users to rent out books from their neighbors in an easy manner. The app won 1st place in the education category.</p>
+											<h5 style="color:black" >Santa Clara Hacks</h5>
+											<p style="color:black">Attended my second hackathon, where I developed an Android application that allows users to rent out books from their neighbors in an easy manner. The app won 1st place in the education category.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
 									<div class="work-info">
 										<div class="col-md-6 work-grid work-left">
-											<h4>December 2016</h4>
+											<h4 style="color:black">December 2016</h4>
 										</div>
 										<div class="col-md-6 work-grid work-right">
-											<h5 class="comp">Cupertino Local Hack Day</h5>
-											<p>Attended my first hackathon, and was able to develop an Android application that serves as a more efficient social network for students to interact with other students and teachers. The application won first place.</p>
+											<h5 style="color:black" class="comp">Cupertino Local Hack Day</h5>
+											<p style="color:black">Attended my first hackathon, and was able to develop an Android application that serves as a more efficient social network for students to interact with other students and teachers. The application won first place.</p>
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -418,12 +418,59 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="contact-right-w3l">
 				<div class="contact-form">
-					<form id="my_form">
-						<input id="name"placeholder="NAME" name="Name" type="text" required="" />
-						<input id="email"placeholder="E-MAIL" name="Email" type="email" required="" />
-						<textarea id="message"placeholder="YOUR MESSAGE......" required=""></textarea>
-						<input type="submit" value="Submit" name="login" onclick="location.href='https://abharadwaj123.github.io/?name'+ document.getElementById('name').value+'/?email='+document.getElementById('email').value+'/?message='+document.getElementById('message').value;">
-					</form>
+					<form name="htmlform" method="post" action="html_form_send.php">
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">
+ </td>
+</tr>
+</table>
+</form>
 				</div>
 			</div>
 			<div class="clearfix"> </div>

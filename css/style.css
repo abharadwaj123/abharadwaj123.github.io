@@ -571,6 +571,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 	.b_label {
 		margin-bottom: .5em;
 		font-size: 1.1em;
+		color: black;
 	}
 
 	/*-- //Progress-Bar --*/
